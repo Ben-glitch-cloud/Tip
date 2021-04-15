@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}  
+
+header {
+    width: 100%; 
+    height: 70px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+}  
+
+header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    color: white;
+}
+
+.tip_app {
+    display: flex; 
+    width: 100%; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+} 
+
+.tip_app_item {
+    margin: 10px 0;
+}  
+
+.tip_app_item h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: center; 
+    color: darkcyan;
+}  
+
+.service {
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;  
+    font-size: 18px; 
+    border: none; 
+    color: white;
+    background-color: lightblue; 
+
+} 
+
+.tip {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 40px; 
+    background-color: lightblue; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 18px; 
+    border: none;
+    color: white;
+}
+
+.output { 
+    margin-top: 40px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 20px;
+    display: flex; 
+    width: 100%; 
+    justify-content: center; 
+    align-self: center;
+} 
+
+.output_item {
+    margin: 0 30px; 
+    text-align: center;
+} 
+
+.output_item h3 {
+    color: darkcyan;
+} 
+
+.output_item {
+    color: darkcyan;
+}

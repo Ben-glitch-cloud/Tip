@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="index.css">
+    <title>Tip</title>
+</head>
+    <body>  
+        <header>
+            <h1>Tip</h1>
+        </header>
+        <div class="tip_app"> 
+            <div class="tip_app_item"> 
+                <h3>meal price</h3>
+                <input type="number" class="meal_price">  
+            </div> 
+            <div class="tip_app_item"> 
+                <h3>Service</h3>
+                <select name="service" class="service"> 
+                    <option value="exellent">Excellent</option>
+                    <option value="good">Good</option> 
+                    <option value="Ok">Ok</option> 
+                    <option value="bad">Bad</option> 
+                    <option value="terrible">Terrible</option>
+                </select>
+            </div> 
+            <div class="tip_app_item"> 
+                <h3>Number of people</h3>
+                <input type="number" class="people">    
+            </div> 
+            <div class="tip_app_item">
+                <button class="tip">Tip</button>  
+            </div>       
+        </div>  
+
+        <div class="output">
+            <div class="output_item"> 
+                <h3>Tip</h3>
+                <p class="tip_amount">0</p>
+            </div> 
+            <div class="output_item">  
+                <h3>Full Bill</h3>
+                <p class="number">0</p>  
+            </div> 
+            <div class="output_item"> 
+                <h3>Per Person</h3>
+                <p class="per_person">0</p> 
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
