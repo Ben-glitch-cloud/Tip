@@ -1,1 +1,1 @@
-<h1> Tip </h1>
+<h1 align="center"> Tip </h1>
