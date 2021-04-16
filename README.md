@@ -6,12 +6,11 @@
 
 <p align="center">A simple tip application that can calulate your total bill with the tip included. 💰</p>  
 
-<h2 align="center">Tech Stack</h2> 
-
-<p align="center" ><img src="https://img.shields.io/badge/-HTML5-black?logo=HTML5&logoColor=blue"> <img src="https://img.shields.io/badge/-CSS3-black?logo=CSS3&logoColor=orange"> <img src="https://img.shields.io/badge/-Javascript-black?logo=Javascript&logoColor=yellow"></p>
+<h2 align="center">Tech Stack</h2>  
 
 <h3 align="center">Langauages</h3>
 
+<p align="center" ><img src="https://img.shields.io/badge/-HTML5-black?logo=HTML5&logoColor=blue"> <img src="https://img.shields.io/badge/-CSS3-black?logo=CSS3&logoColor=orange"> <img src="https://img.shields.io/badge/-Javascript-black?logo=Javascript&logoColor=yellow"></p>
 
 
 <h2 align="center">How to set up</h2>
