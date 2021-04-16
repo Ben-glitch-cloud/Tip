@@ -17,7 +17,7 @@
 
 1. First fork the repo from GitHub 
 
-2. Great an empty folder and copy the prject into the terminal 
+2. Creat an empty folder and copy the prject into the terminal 
 ``` 
 $ copy here
 ``` 
