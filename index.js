@@ -23,8 +23,9 @@ document.querySelector('.number').textContent = ''
 document.querySelector('.per_person').textContent = ''  
 
 const percentage = (per, meal) => (per / 100) * meal
+// have a look at these new funactions  
 
-document.querySelector('.tip').addEventListener('click', function(){
+document.querySelector('#tip').addEventListener('click', function(){ 
     const meal_price = Number(document.querySelector('.meal_price').value) 
     const service = document.querySelector('.service').value 
     const people = Number(document.querySelector('.people').value)  
@@ -47,9 +48,31 @@ document.querySelector('.tip').addEventListener('click', function(){
 
     full_price = meal_price + tip 
 
-    document.querySelector('.tip_amount').textContent = `£${Math.trunc(tip)}`
-    document.querySelector('.number').textContent = `£${Math.trunc(full_price)}`
-    document.querySelector('.per_person').textContent = `£${Math.trunc(full_price / people)}`
+    console.log(meal_price) 
+    console.log(people)
 
+    if (meal_price === 0 && people === 0) {
+        
+        document.querySelector('.warining').textContent = 'Please add a price'  
+
+        document.querySelector('.warining_two').textContent = 'Please add the number of people'
+
+    } else if (meal_price === 0) {
+        
+        document.querySelector('.warining').textContent = 'Please add a price' 
+        document.querySelector('.warining_two').textContent = '' 
+
+    } else if (people === 0) {
+        
+        document.querySelector('.warining_two').textContent = 'Please add the number of people' 
+        document.querySelector('warining').textContent = ''
+
+    } else {
+        document.querySelector('.tip_amount').textContent = `£${Math.trunc(tip)}`
+        document.querySelector('.number').textContent = `£${Math.trunc(full_price)}`
+        document.querySelector('.per_person').textContent = `£${Math.floor(full_price / people)}` 
+        document.querySelector('.warining_two').textContent = '' 
+        document.querySelector('warining').textContent = ''
+    }
 }); 
 
