@@ -13,6 +13,20 @@
 <p align="center" ><img src="https://img.shields.io/badge/-HTML5-black?logo=HTML5&logoColor=blue"> <img src="https://img.shields.io/badge/-CSS3-black?logo=CSS3&logoColor=orange"> <img src="https://img.shields.io/badge/-Javascript-black?logo=Javascript&logoColor=yellow"></p>
 
 
-<h2 align="center">How to set up</h2>
+<h2 align="center">How to get set up</h2>  
+
+1. First fork the repo from GitHub 
+
+2. Great an empty folder and copy the prject into the terminal 
+``` 
+$ copy here
+``` 
+3. To run the project on a web browser install the latest version of Live server package on to your code editor. 
+
+4. Then right click on the HTML file and run the project.  
+
+<p>👏 All Done ✅ </p>
+
+<h2>User Story</h2> 
 
 
