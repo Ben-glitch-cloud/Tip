@@ -27,7 +27,7 @@ $ https://github.com/Ben-glitch-cloud/Tip.git
 
 <p>👏 All Done ✅ </p>
 
-<h2>User Story</h2> 
+<h2 align="center">User Story</h2> 
 
 ``` 
 As a user 
