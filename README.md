@@ -19,7 +19,7 @@
 
 2. Creat an empty folder and copy the prject into the terminal 
 ``` 
-$ copy here
+$ https://github.com/Ben-glitch-cloud/Tip.git
 ``` 
 3. To run the project on a web browser install the latest version of Live server package on to your code editor. 
 
