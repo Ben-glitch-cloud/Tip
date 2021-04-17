@@ -29,4 +29,23 @@ $ https://github.com/Ben-glitch-cloud/Tip.git
 
 <h2>User Story</h2> 
 
+``` 
+As a user 
+I would like to see my total bill with the tip added  
+So I can see how much I need to pay
+``` 
+✅
 
+``` 
+As a user 
+I would like to rate my restaurant expericence 
+So I know how much to tip
+``` 
+✅
+
+``` 
+As a user  
+I would like a input for the number of people at the table
+So I can divide the bill between friends 
+```
+✅
