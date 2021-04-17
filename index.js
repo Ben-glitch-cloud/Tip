@@ -48,9 +48,6 @@ document.querySelector('#tip').addEventListener('click', function(){
 
     full_price = meal_price + tip 
 
-    console.log(meal_price) 
-    console.log(people)
-
     if (meal_price === 0 && people === 0) {
         
         document.querySelector('.warining').textContent = 'Please add a price'  
@@ -72,7 +69,7 @@ document.querySelector('#tip').addEventListener('click', function(){
         document.querySelector('.number').textContent = `£${Math.trunc(full_price)}`
         document.querySelector('.per_person').textContent = `£${Math.floor(full_price / people)}` 
         document.querySelector('.warining_two').textContent = '' 
-        document.querySelector('warining').textContent = ''
+        document.querySelector('.warining').textContent = ''
     }
 }); 
 
