@@ -15,9 +15,9 @@
 
 <h2 align="center">How to get set up</h2>  
 
-1. First fork the repo from GitHub 
+1. First fork the repo from GitHub. 
 
-2. Creat an empty folder and copy the prject into the terminal 
+2. Creat an empty folder and copy the project into the terminal.  
 ``` 
 $ https://github.com/Ben-glitch-cloud/Tip.git
 ``` 
